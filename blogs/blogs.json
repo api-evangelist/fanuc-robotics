@@ -1,0 +1,21 @@
+{
+  "repo": "fanuc-robotics",
+  "feeds": [
+    {
+      "source": "https://www.fanucamerica.com",
+      "feed_url": "https://www.fanucamerica.com/news-resources/fanuc-america-press-releases",
+      "title": "FANUC America Press Releases",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.fanuc.com",
+      "feed_url": "https://www.fanuc.com",
+      "title": "FANUC Corporation Global",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-05T00:00:00Z"
+}

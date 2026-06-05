@@ -1,0 +1,191 @@
+vocabulary:
+  name: FANUC Robotics & Factory Automation Vocabulary
+  description: >-
+    Key industrial and manufacturing concepts used by FANUC Corporation across
+    its FA (CNC), Robot, and ROBOMACHINE product segments, plus associated
+    integration standards and programming environments.
+  version: "1.0"
+  terms:
+
+    - term: FOCAS
+      definition: >-
+        FANUC Open CNC API Specification — a licensed C/C++ library (fwlib32.dll)
+        that enables machine builders and MES/OEE software vendors to read and
+        write CNC controller state over Ethernet. The primary programmatic
+        interface to FANUC CNC equipment.
+      tags:
+        - API
+        - CNC
+        - Integration
+        - FOCAS
+
+    - term: CNC
+      definition: >-
+        Computer Numerical Control — automated control of machine tools (lathes,
+        mills, routers) by a computer executing pre-programmed sequences of
+        machine control commands. FANUC's FA segment produces CNC systems,
+        servo motors, and PMC controls.
+      tags:
+        - CNC
+        - Manufacturing
+        - Machine Tools
+        - FA
+
+    - term: Industrial Robot
+      definition: >-
+        A reprogrammable, multipurpose manipulator designed to move materials,
+        parts, tools, or specialized devices through variable programmed motions
+        for the performance of a variety of tasks. FANUC's Robot segment spans
+        the LR Mate (compact), M-series (general purpose), and M-2000iA
+        (heavy payload, up to 2,300 kg) families.
+      tags:
+        - Robot
+        - Automation
+        - Manufacturing
+        - Industrial
+
+    - term: Collaborative Robot (CRX)
+      definition: >-
+        A robot designed to work safely alongside human operators without
+        traditional safety fencing. FANUC's CRX series offers drag-and-drop
+        tablet programming and built-in safety sensors, targeting SME
+        manufacturers and flexible assembly lines.
+      tags:
+        - Collaborative Robot
+        - Cobot
+        - CRX
+        - Safety
+
+    - term: KAREL
+      definition: >-
+        FANUC's proprietary high-level programming language for robot controllers,
+        modeled after Pascal. KAREL programs run on the robot controller and
+        provide structured programming constructs beyond standard Teach Pendant
+        (TP) motion programming.
+      tags:
+        - Programming Language
+        - Robot
+        - Controller
+        - KAREL
+
+    - term: MTConnect
+      definition: >-
+        An open, royalty-free manufacturing industry standard protocol that
+        enables structured, contextualized data from manufacturing equipment.
+        FANUC CNC and robot equipment can expose MTConnect adapters for
+        integration with MES, OEE, and IIoT platforms.
+      tags:
+        - MTConnect
+        - Protocol
+        - IIoT
+        - Data Standard
+        - Integration
+
+    - term: OPC UA
+      definition: >-
+        OPC Unified Architecture — a platform-independent, service-oriented
+        architecture that integrates all the functionality of the OPC Classic
+        specifications into one extensible framework. FANUC equipment exposes
+        OPC UA servers for real-time data access from SCADA and MES systems.
+      tags:
+        - OPC UA
+        - Protocol
+        - IIoT
+        - Integration
+
+    - term: ROBODRILL
+      definition: >-
+        A compact, high-speed machining center from FANUC's ROBOMACHINE segment,
+        designed for precision drilling, tapping, and milling of small complex
+        parts. Known for its rigid construction, fast tool change, and deep
+        integration with FANUC CNC and servo technology.
+      tags:
+        - ROBODRILL
+        - Machining Center
+        - ROBOMACHINE
+        - Manufacturing
+
+    - term: ROBOCUT
+      definition: >-
+        A wire electrical discharge machining (wire EDM) system from FANUC's
+        ROBOMACHINE segment. Uses a thin wire electrode to cut complex shapes
+        in conductive materials with high precision, controlled by FANUC's
+        dedicated CNC.
+      tags:
+        - ROBOCUT
+        - Wire EDM
+        - ROBOMACHINE
+        - Manufacturing
+
+    - term: ROBOSHOT
+      definition: >-
+        An all-electric injection molding machine from FANUC's ROBOMACHINE
+        segment, using servo-driven axes (no hydraulics) for high repeatability,
+        energy efficiency, and clean-room compatibility. Controlled by a
+        dedicated FANUC CNC.
+      tags:
+        - ROBOSHOT
+        - Injection Molding
+        - ROBOMACHINE
+        - Manufacturing
+
+    - term: FIELD System
+      definition: >-
+        FANUC Intelligent Edge Link & Drive — an open IoT platform for factory
+        equipment that runs edge applications (including third-party apps) on
+        an on-premises server, collecting data from FANUC and non-FANUC machines
+        via FOCAS, MTConnect, and OPC UA without sending data to external clouds.
+      tags:
+        - FIELD
+        - IIoT
+        - Edge Computing
+        - IoT Platform
+        - Integration
+
+    - term: ROS 2 Driver
+      definition: >-
+        An open-source Robot Operating System 2 driver published by FANUC
+        Corporation (github.com/FANUC-CORPORATION/fanuc_driver) that enables
+        motion planning and control of FANUC robot arms via MoveIt 2,
+        targeting research, education, and advanced automation applications.
+      tags:
+        - ROS 2
+        - Open Source
+        - Robot
+        - Driver
+
+    - term: Payload
+      definition: >-
+        The maximum load (in kilograms) that a robot arm can carry at its wrist,
+        including the weight of the end-of-arm tooling. A key specification for
+        robot selection; FANUC robots range from 0.5 kg (LR Mate 200iD/0.5L)
+        to 2,300 kg (M-2000iA/2300).
+      tags:
+        - Robot Specification
+        - Payload
+        - Mechanical
+
+    - term: PMC
+      definition: >-
+        Programmable Machine Controller — FANUC's built-in ladder-logic PLC
+        that runs on the CNC controller hardware. The PMC handles machine I/O,
+        interlocks, and auxiliary axis control, programmed with FANUC's ladder
+        diagram or statement-list editors.
+      tags:
+        - PMC
+        - PLC
+        - CNC
+        - Controller
+        - FA
+
+    - term: Teach Pendant (TP)
+      definition: >-
+        The handheld programming device used to jog and teach positions to a
+        FANUC robot, and to write TP programs — the standard motion programming
+        language consisting of motion instructions, I/O actions, and branching
+        logic executed directly by the robot controller.
+      tags:
+        - Teach Pendant
+        - TP Programming
+        - Robot
+        - HMI

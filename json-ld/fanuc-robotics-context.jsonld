@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "mfg": "https://www.industry-ontology.org/ont/",
+    "fanuc": "https://www.fanuc.com/vocab/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Organization": "schema:Organization",
+    "name": "schema:name",
+    "url": "schema:url",
+    "description": "schema:description",
+    "logo": "schema:logo",
+    "sameAs": "schema:sameAs",
+    "foundingDate": "schema:foundingDate",
+    "foundingLocation": "schema:foundingLocation",
+    "parentOrganization": "schema:parentOrganization",
+    "industry": "schema:industry",
+    "makesOffer": "schema:makesOffer",
+    "hasOfferCatalog": "schema:hasOfferCatalog",
+
+    "IndustrialRobot": {
+      "@id": "fanuc:IndustrialRobot",
+      "@type": "schema:Product"
+    },
+    "CollaborativeRobot": {
+      "@id": "fanuc:CollaborativeRobot",
+      "@type": "schema:Product"
+    },
+    "CNCSystem": {
+      "@id": "fanuc:CNCSystem",
+      "@type": "schema:Product"
+    },
+    "FOCAS": {
+      "@id": "fanuc:FOCAS",
+      "@type": "schema:SoftwareApplication"
+    },
+    "ROBODRILL": {
+      "@id": "fanuc:ROBODRILL",
+      "@type": "schema:Product"
+    },
+    "ROBOCUT": {
+      "@id": "fanuc:ROBOCUT",
+      "@type": "schema:Product"
+    },
+    "ROBOSHOT": {
+      "@id": "fanuc:ROBOSHOT",
+      "@type": "schema:Product"
+    },
+
+    "payload": {
+      "@id": "fanuc:payload",
+      "@type": "xsd:decimal"
+    },
+    "reach": {
+      "@id": "fanuc:reach",
+      "@type": "xsd:decimal"
+    },
+    "axes": {
+      "@id": "fanuc:axes",
+      "@type": "xsd:integer"
+    },
+    "repeatability": {
+      "@id": "fanuc:repeatability",
+      "@type": "xsd:decimal"
+    },
+    "spindleSpeed": {
+      "@id": "fanuc:spindleSpeed",
+      "@type": "xsd:decimal"
+    },
+    "controllerModel": "fanuc:controllerModel",
+    "programLanguage": "fanuc:programLanguage",
+    "protocol": "fanuc:protocol",
+    "mountingStyle": "fanuc:mountingStyle",
+    "ipRating": "fanuc:ipRating",
+
+    "MTConnect": {
+      "@id": "mfg:MTConnect",
+      "@type": "mfg:DataStandard"
+    },
+    "OPCUA": {
+      "@id": "mfg:OPCUA",
+      "@type": "mfg:CommunicationProtocol"
+    },
+    "ROS2": {
+      "@id": "mfg:ROS2",
+      "@type": "mfg:RoboticsFramework"
+    },
+    "KAREL": {
+      "@id": "fanuc:KAREL",
+      "@type": "schema:ComputerLanguage"
+    },
+    "fieldSystem": {
+      "@id": "fanuc:fieldSystem",
+      "@type": "schema:SoftwareApplication"
+    }
+  },
+  "@type": "Organization",
+  "name": "FANUC Corporation",
+  "url": "https://www.fanuc.com",
+  "description": "World's largest supplier of factory automation, industrial robots, and CNC systems. Founded in 1972, FANUC operates FA (CNC), Robot, and ROBOMACHINE business segments.",
+  "foundingDate": "1972",
+  "foundingLocation": "Oshino, Yamanashi, Japan",
+  "sameAs": [
+    "https://www.fanucamerica.com",
+    "https://www.fanuc.eu",
+    "https://www.fanuc.co.jp/en/",
+    "https://github.com/FANUC-CORPORATION",
+    "https://www.linkedin.com/company/fanuc-america-corporation",
+    "https://twitter.com/fanucamerica"
+  ]
+}
